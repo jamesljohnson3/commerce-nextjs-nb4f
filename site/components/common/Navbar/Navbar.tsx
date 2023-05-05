@@ -371,7 +371,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                 <div className="ml-4 flex lg:ml-0">
                   <Link href="/" className={s.logo} aria-label="Logo">
                     {' '}
-                    <span className="sr-only">Your Company</span>
+                    <span className="sr-only">NB4F</span>
                     <img className="w-7 h-10" alt="NB4F" src="/icon.png" />
                   </Link>
                 </div>
