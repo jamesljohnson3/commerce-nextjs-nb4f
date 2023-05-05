@@ -11,7 +11,6 @@ import {
   SignedOut,
   RedirectToSignIn,
 } from '@clerk/nextjs'
-import Dash from '../components/dash'
 
 import '@assets/main.css'
 import '@assets/chrome-bug.css'
@@ -56,9 +55,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 </div>
               </AuthProvider>
             </SignedOut>
-            <SignedIn>
-              <Dash />
-            </SignedIn>
+            <SignedIn>Hello</SignedIn>
           </>
         )}
       </ClerkProvider>
