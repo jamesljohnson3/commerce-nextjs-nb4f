@@ -521,7 +521,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                     <div className="hidden md:flex items-center space-x-4">
                       <a
                         aria-label="my account"
-                        href="https://us.nb4fshop.com/account"
+                        href="https://us.nb4fshop.com/sign-in"
                         className="focus:outline-none focus:ring-2 focus:ring-gray-800 hover:bg-gray-100 p-0.5 rounded"
                       >
                         <svg
@@ -642,7 +642,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                         {' '}
                         <a
                           aria-label="my account"
-                          href="https://us.nb4fshop.com/account"
+                          href="https://us.nb4fshop.com/sign-in"
                           className="focus:outline-none focus:ring-2 focus:ring-gray-800 hover:bg-gray-100 p-0.5 rounded"
                         >
                           <svg
