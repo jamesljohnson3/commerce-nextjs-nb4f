@@ -348,9 +348,9 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
         </Transition.Root>
 
         <header className="relative bg-white">
-          <p className="flex h-10 items-center justify-center bg-black px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+          <a href="https://nb4fshop.com/product/dreika-romper" className="flex h-10 items-center justify-center bg-black px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
             Now Available | Shop Dreika Romper Collection!
-          </p>
+          </a>
 
           <nav
             aria-label="Top"
