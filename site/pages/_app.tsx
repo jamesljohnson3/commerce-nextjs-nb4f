@@ -39,11 +39,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <ClerkProvider {...pageProps}>
-        {isPrivatePage ? (
-          <Component {...pageProps} />
-        ) : (
-          <>
-            <SignedOut>
+       
               <AuthProvider projectId={projectId || 'DEFAULT_PROJECT_ID'}>
                 <div>
                   <Head />
@@ -54,10 +50,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                   </ManagedUIContext>
                 </div>
               </AuthProvider>
-            </SignedOut>
-            
-          </>
-        )}
+           
       </ClerkProvider>
     </>
   )
