@@ -506,13 +506,12 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                       <Searchbar />
                     </div>
                   )}
-               {process.env.COMMERCE_SEARCH_ENABLED && (
-  <div className="flex pb-4 lg:px-6 lg:hidden justify-content-center">
-    <div className="w-full max-w-xs">
-      <Searchbar id="mobile-search" />
-    </div>
+          {process.env.COMMERCE_SEARCH_ENABLED && (
+  <div className="flex pl-1 pt-1 pb-4 lg:px-6 lg:hidden">
+    <Searchbar id="mobile-search" />
   </div>
 )}
+
 
                   <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                     <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
