@@ -21,7 +21,7 @@ const navigation = {
   categories: [
     {
       id: 'women',
-      name: 'Women',
+      name: 'Womens',
       featured: [
         {
           name: 'New Arrivals',
@@ -83,7 +83,7 @@ const navigation = {
     },
     {
       id: 'men',
-      name: 'Men',
+      name: 'Mens',
       featured: [
         {
           name: 'New Arrivals',
