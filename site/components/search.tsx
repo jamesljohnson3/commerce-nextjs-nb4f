@@ -436,7 +436,7 @@ export default function Search({ categories, brands }: SearchPropsType) {
           </h2>
           <p className=" font-normal text-base leading-6 text-gray-600 mt-4 lg:w-5/12 md:w-9/12 mx-auto">
             Follow us on instagram @
-            <span className="underline cursor-pointer">followuspleaseee</span>{' '}
+            <span className="underline cursor-pointer">NB4F_Distribution</span>{' '}
             and tag us to get featured on our timeline
           </p>
         </div>
