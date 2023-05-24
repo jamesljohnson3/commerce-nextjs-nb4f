@@ -19,6 +19,27 @@ const products2 = [
     imageAlt:
       'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
+  {
+    id: 2,
+    name: 'Multi Print Romper',
+    href: 'https://nb4fshop.com/product/multi-print-romper',
+    price: '$35',
+    imageSrc:
+      'https://nb4fshop.com/_next/image?url=https%3A%2F%2Fcdn.schema.io%2Fnb4f%2F645c0798c525cf00114033f9%2F40f22ba7d07918422db71477cdb6d2a1&w=1200&q=85',
+    imageAlt:
+      'Multi Print Romper',
+  },
+  {
+    id: 2,
+    name: 'Print Mesh Bodysuit & Leggings',
+    href: 'https://nb4fshop.com/product/print-mesh-bodysuit-leggings',
+    price: '$40',
+    imageSrc:
+      'https://nb4fshop.com/_next/image?url=https%3A%2F%2Fcdn.schema.io%2Fnb4f%2F641617abb317d700126ba00c%2F986223e917025dd1b16a5c5ea4bd625d&w=1200&q=85',
+    imageAlt:
+      'Print Mesh Bodysuit & Leggings',
+  },
+
   // More products...
 ]
 export default function handler(
