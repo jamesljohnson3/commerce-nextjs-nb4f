@@ -167,4 +167,6 @@ export default function handler(
   res: NextApiResponse<NavigationData[]>
 ) {
   res.status(200).json(navigation);
+  res.json(navigation.categories);
+
 }
