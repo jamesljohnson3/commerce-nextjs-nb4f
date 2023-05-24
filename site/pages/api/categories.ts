@@ -1,5 +1,33 @@
-const navigation = {
-    categories: [
+interface Category {
+    id: string;
+    name: string;
+    featured: {
+      name: string;
+      href: string;
+      imageSrc: string;
+      imageAlt: string;
+    }[];
+    sections: {
+      id: string;
+      name: string;
+      items: {
+        name: string;
+        href: string;
+      }[];
+    }[];
+  }
+  
+  interface Page {
+    name: string;
+    href: string;
+  }
+  
+  interface NavigationData {
+    categories: Category[];
+    pages: Page[];
+  }
+  
+  const navigation: NavigationData = {    categories: [
         {
           id: 'women',
           name: 'Womens',
@@ -131,7 +159,6 @@ const navigation = {
       ],
   };
   
-  export default function handler(req, res) {
-    res.status(200).json(navigation);
-  }
-  
+export default function handler(req: any, res: any) {
+  res.status(200).json(navigation);
+}
