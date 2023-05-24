@@ -1,54 +1,26 @@
+import { useRouter } from 'next/router';
 
-interface Category {
-  id: string;
-  name: string;
-  featured: {
-    name: string;
-    href: string;
-    imageSrc: string;
-    imageAlt: string;
-  }[];
-  sections: {
-    id: string;
-    name: string;
-    items: {
-      name: string;
-      href: string;
-    }[];
-  }[];
-}
+export default function handler(req: any, res: { status: (arg0: number) => { (): any; new(): any; json: { (arg0: any): void; new(): any; }; }; }) {
+  const router = useRouter();
 
-interface Page {
-  name: string;
-  href: string;
-}
-
-interface NavigationData {
-  categories: Category[];
-  pages: Page[];
-}
-
-const navigation: NavigationData = {
-  categories: [
+  // Get the `navigation` object from the global scope.
+  const navigation = {
+    categories: [
       {
         id: 'women',
-        name: 'Womens',
+        name: 'Women',
         featured: [
           {
             name: 'New Arrivals',
-            href: 'https://nb4fshop.com/search/womens',
-            imageSrc:
-              'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-            imageAlt:
-              'Models sitting back to back, wearing Basic Tee in black and bone.',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+            imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
           },
           {
             name: 'Basic Tees',
-            href: 'https://nb4fshop.com/search/womens',
-            imageSrc:
-              'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
-            imageAlt:
-              'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+            imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
           },
         ],
         sections: [
@@ -64,7 +36,7 @@ const navigation: NavigationData = {
               { name: 'T-Shirts', href: '#' },
               { name: 'Jackets', href: '#' },
               { name: 'Activewear', href: '#' },
-              { name: 'Browse All', href: 'https://nb4fshop.com/search/womens' },
+              { name: 'Browse All', href: '#' },
             ],
           },
           {
@@ -94,21 +66,18 @@ const navigation: NavigationData = {
       },
       {
         id: 'men',
-        name: 'Mens',
+        name: 'Men',
         featured: [
           {
             name: 'New Arrivals',
-            href: 'https://nb4fshop.com/search/mens',
-            imageSrc:
-              'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
-            imageAlt:
-              'Drawstring top with elastic loop closure and textured interior padding.',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
+            imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
           },
           {
             name: 'Artwork Tees',
-            href: 'https://nb4fshop.com/search/mens',
-            imageSrc:
-              'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
+            href: '#',
+            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
             imageAlt:
               'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
           },
@@ -124,7 +93,7 @@ const navigation: NavigationData = {
               { name: 'T-Shirts', href: '#' },
               { name: 'Jackets', href: '#' },
               { name: 'Activewear', href: '#' },
-              { name: 'Browse All', href: 'https://nb4fshop.com/search/mens' },
+              { name: 'Browse All', href: '#' },
             ],
           },
           {
@@ -153,28 +122,19 @@ const navigation: NavigationData = {
       },
     ],
     pages: [
-      { name: 'Big & Tall', href: 'https://nb4fshop.com/search/bt' },
-      { name: 'Dresses', href: 'https://nb4fshop.com/search/womens-dresses' },
-      { name: 'Rompers', href: 'https://nb4fshop.com/search/rompers' },
-      { name: 'Plus Size', href: 'https://nb4fshop.com/search/plus-size' },
-      { name: 'Jeans', href: 'https://nb4fshop.com/search/denim-jeans-set' },
+      { name: 'Company', href: '#' },
+      { name: 'Stores', href: '#' },
     ],
   }
+  
+  // Get the `category` from the query string.
+  const category = router.query.category;
 
-  export default function handler(
-    req: any,
-    res: {
-      status: (arg0: number) => {
-        (): any;
-        new (): any;
-        json: {
-          (arg0: NavigationData[]): void;
-          new (): any;
-        }
-      }
-    }
-  ) {
-    res.status(200).json([navigation]);
+  // If the `category` is not specified, return the entire `navigation` object.
+  if (!category) {
+    res.status(200).json(navigation);
+  } else {
+    // Otherwise, return the `category` object.
+    res.status(200).json(navigation.categories.find((c: { name: any; }) => c.name === category));
   }
-  
-  
+}
