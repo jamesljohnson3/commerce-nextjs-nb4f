@@ -27,17 +27,17 @@ const navigation = {
           name: 'New Arrivals',
           href: 'https://nb4fshop.com/search/womens',
           imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+            'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/Fleece_set_Grey_jertbs.webp',
           imageAlt:
-            'Models sitting back to back, wearing Basic Tee in black and bone.',
+            'New Arrivals',
         },
         {
-          name: 'Basic Tees',
+          name: 'Bodysuits',
           href: 'https://nb4fshop.com/search/womens',
           imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+            'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/High_cut_bodysuit_vxclav.jpg',
           imageAlt:
-            'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+            'Bodysuits',
         },
       ],
       sections: [

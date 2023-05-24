@@ -11,7 +11,7 @@ export default function handler(req: any, res: { status: (arg0: number) => { ():
           {
             name: 'New Arrivals',
             href: '#',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+            imageSrc: 'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/High_cut_bodysuit_vxclav.jpg',
             imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
           },
           {
