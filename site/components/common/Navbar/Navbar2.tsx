@@ -58,14 +58,14 @@ const navigation = {
         },
         {
           id: 'accessories',
-          name: 'Accessories',
+          name: 'New & Hot',
           items: [
-            { name: 'Watches', href: '#' },
-            { name: 'Wallets', href: '#' },
-            { name: 'Bags', href: '#' },
-            { name: 'Sunglasses', href: '#' },
-            { name: 'Hats', href: '#' },
-            { name: 'Belts', href: '#' },
+            { name: 'Seamless Tops', href: 'https://nb4fshop.com/product/seamless-tank-top-leggings-set' },
+            { name: 'Print Leggings', href: 'https://nb4fshop.com/product/print-mesh-bodysuit-leggings' },
+            { name: 'Crop Tops', href: 'https://nb4fshop.com/product/rib-crop-top-mini-shorts-set' },
+            { name: 'Zip Up Tops', href: 'https://nb4fshop.com/product/letter-embossed-zip-up-top-shorts-set' },
+            { name: 'French Hoodies', href: 'https://nb4fshop.com/product/french-terry-hoodie-jacket-shorts-set' },
+            { name: 'Tropical Prints', href: 'https://nb4fshop.com/product/tropical-print-x-back-dress' },
           ],
         },
         {
