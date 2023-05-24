@@ -89,15 +89,15 @@ const navigation = {
           name: 'New Arrivals',
           href: 'https://nb4fshop.com/search/mens',
           imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
+            'https://res.cloudinary.com/unlimitednow/image/upload/v1684964325/nb4f/products/Reflective_Royal_Blue_omumrq.jpg',
           imageAlt:
             'Drawstring top with elastic loop closure and textured interior padding.',
         },
         {
-          name: 'Artwork Tees',
+          name: 'Sweatsuits',
           href: 'https://nb4fshop.com/search/mens',
           imageSrc:
-            'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
+            'https://res.cloudinary.com/unlimitednow/image/upload/v1681747694/h7wmi8x8qqpkzpxmggba.jpg',
           imageAlt:
             'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
         },
