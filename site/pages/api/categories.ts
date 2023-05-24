@@ -174,5 +174,7 @@ const navigation: NavigationData = {
       }
     }
   ) {
-    res.status(200).json(navigation);
+    res.status(200).json([navigation]);
   }
+  
+  
