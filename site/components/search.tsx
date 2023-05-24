@@ -443,12 +443,12 @@ export default function Search({ categories, brands }: SearchPropsType) {
         <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
           <div className="relative group">
             <img
-              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684967157/Get_ready_to_impress_2_cxznuq.png"
+              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684967149/Get_ready_to_impress_ltsmsg.png"
               alt="nb4f distribution"
               className=" lg:block hidden w-full "
             />
             <img
-              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684967157/Get_ready_to_impress_2_cxznuq.png"
+              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684967149/Get_ready_to_impress_ltsmsg.png"
               alt="nb4f distribution"
               className="lg:hidden block w-full "
             />
