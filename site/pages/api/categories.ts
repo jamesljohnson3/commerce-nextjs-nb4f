@@ -168,6 +168,7 @@ const navigation: NavigationData = {
   ) {
     res.status(200).json({
       categories: navigation.categories,
+      pages: navigation.pages,
     });
   }
   
