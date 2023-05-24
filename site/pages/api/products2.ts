@@ -1,23 +1,23 @@
 const products2 = [
   {
     id: 1,
-    name: 'Earthen Bottle',
-    href: '#',
-    price: '$48',
+    name: 'Seamless Jacket Set',
+    href: 'https://nb4fshop.com/product/seamless-jacket-set',
+    price: '$30',
     imageSrc:
-      'https://res.cloudinary.com/unlimitednow/image/upload/v1680770683/nb4f/french_terry_hoodie_set_latte_frylcu.png',
+      'https://nb4fshop.com/_next/image?url=https%3A%2F%2Fcdn.schema.io%2Fnb4f%2F64543c49b83f5d0012cf7585%2F4848d12028655d09aa59f90005d244a0&w=1200&q=85',
     imageAlt:
-      'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      'Seamless Jacket Set',
   },
   {
     id: 2,
-    name: 'Nomad Tumbler',
-    href: '#',
-    price: '$35',
+    name: 'Two Tone Pattern Top & Shorts Set ',
+    href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set',
+    price: '$25',
     imageSrc:
-      'https://res.cloudinary.com/unlimitednow/image/upload/v1680770681/nb4f/Solid_Halter_Tie_Cut_Out_Dress_Baby_Blue_haatiu.png',
+      'https://nb4fshop.com/_next/image?url=https%3A%2F%2Fcdn.schema.io%2Fnb4f%2F64543b1b7800ef0012af5099%2Fab1d421c893973f6077382f81282b42c&w=1200&q=85',
     imageAlt:
-      'Olive drab green insulated bottle with flared screw lid and flat top.',
+      'Two Tone Pattern Top & Shorts Set      ',
   },
   {
     id: 2,
