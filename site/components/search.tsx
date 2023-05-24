@@ -488,12 +488,12 @@ export default function Search({ categories, brands }: SearchPropsType) {
           <div className="relative group">
             <img
               src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925382/nb4f/Designer_45_rzafyq.png"
-              alt="Smiling Girl"
+              alt="nb4f distribution"
               className=" lg:block hidden w-full "
             />
             <img
               src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925382/nb4f/Designer_45_rzafyq.png"
-              alt="Smiling Girl"
+              alt="nb4f distribution"
               className="lg:hidden block w-full "
             />
             <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
@@ -532,12 +532,12 @@ export default function Search({ categories, brands }: SearchPropsType) {
           <div className="relative group">
             <img
               src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925382/nb4f/Designer_46_gu8973.png"
-              alt="Men Posing"
+              alt="nb4f distribution"
               className=" lg:block hidden w-full "
             />
             <img
               src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925382/nb4f/Designer_46_gu8973.png"
-              alt="Men Posing"
+              alt="nb4f distribution"
               className="lg:hidden block w-full "
             />
             <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
@@ -575,13 +575,13 @@ export default function Search({ categories, brands }: SearchPropsType) {
           </div>
           <div className="relative group">
             <img
-              src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925548/nb4f/Designer_51_bwbbys.png"
-              alt="2 puppies"
+              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684964333/nb4f/products/Nylon_Rib_Seamless_Set_3_xnhajz.png"
+              alt="nb4f distribution"
               className=" lg:block hidden w-full "
             />
             <img
-              src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925548/nb4f/Designer_51_bwbbys.png"
-              alt="2 puppies"
+              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684964333/nb4f/products/Nylon_Rib_Seamless_Set_3_xnhajz.png"
+              alt="nb4f distribution"
               className="lg:hidden block w-full "
             />
             <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
