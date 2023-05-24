@@ -443,13 +443,13 @@ export default function Search({ categories, brands }: SearchPropsType) {
         <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
           <div className="relative group">
             <img
-              src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925548/nb4f/Designer_52_paoaqd.png"
-              alt="A picture of a sitting dog"
+              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684967157/Get_ready_to_impress_2_cxznuq.png"
+              alt="nb4f distribution"
               className=" lg:block hidden w-full "
             />
             <img
-              src="https://res.cloudinary.com/unlimitednow/image/upload/v1671925548/nb4f/Designer_52_paoaqd.png"
-              alt="A picture of a sitting dog"
+              src="https://res.cloudinary.com/unlimitednow/image/upload/v1684967157/Get_ready_to_impress_2_cxznuq.png"
+              alt="nb4f distribution"
               className="lg:hidden block w-full "
             />
             <div className=" flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
