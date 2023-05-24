@@ -162,11 +162,12 @@ const navigation: NavigationData = {
     ],
   }
 
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<NavigationData[]>
-) {
-  res.status(200).json(navigation);
-  res.json(navigation.categories);
-
-}
+  export default function handler(
+    req: NextApiRequest,
+    res: NextApiResponse<NavigationData[]>
+  ) {
+    res.status(200).json({
+      categories: navigation.categories,
+    });
+  }
+  
