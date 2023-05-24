@@ -7,6 +7,7 @@ import s from './Navbar.module.css'
 import NavbarRoot from './NavbarRoot'
 import { Logo, Container } from '@components/ui'
 import { Searchbar, UserNav } from '@components/common'
+import  navigation  from '../../../pages/api/categories'; // Update the path if needed
 
 import { Fragment, useState, useEffect } from 'react';
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
