@@ -1,4 +1,3 @@
-import { NextApiRequest, NextApiResponse } from 'next';
 
 interface Category {
   id: string;
@@ -163,12 +162,17 @@ const navigation: NavigationData = {
   }
 
   export default function handler(
-    req: NextApiRequest,
-    res: NextApiResponse<NavigationData[]>
+    req: any,
+    res: {
+      status: (arg0: number) => {
+        (): any;
+        new (): any;
+        json: {
+          (arg0: NavigationData[]): void;
+          new (): any;
+        }
+      }
+    }
   ) {
-    res.status(200).json({
-      categories: navigation.categories,
-      pages: navigation.pages,
-    });
+    res.status(200).json(navigation);
   }
-  
