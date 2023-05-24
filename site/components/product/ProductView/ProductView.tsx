@@ -393,8 +393,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                     Can I cancel or change my Order?
                   </h3>
                   <p className="mt-6 text-base leading-6 text-gray-600">
-                    Yes, you can change or cancel your order within the first 10
-                    days of your order placement.
+                    Yes, you can change or cancel your order just reach out us.
                   </p>
                 </div>
                 <hr className="border border-gray-100 w-full" />
