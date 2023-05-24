@@ -1,7 +1,5 @@
-import { useRouter } from 'next/router';
 
 export default function handler(req: any, res: { status: (arg0: number) => { (): any; new(): any; json: { (arg0: any): void; new(): any; }; }; }) {
-  const router = useRouter();
 
   // Get the `navigation` object from the global scope.
   const navigation = {
@@ -128,13 +126,9 @@ export default function handler(req: any, res: { status: (arg0: number) => { ():
   }
   
   // Get the `category` from the query string.
-  const category = router.query.category;
 
   // If the `category` is not specified, return the entire `navigation` object.
-  if (!category) {
+ {
     res.status(200).json(navigation);
-  } else {
-    // Otherwise, return the `category` object.
-    res.status(200).json(navigation.categories.find((c: { name: any; }) => c.name === category));
   }
 }
