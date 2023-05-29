@@ -3,6 +3,6 @@ const commerce = require('./commerce.config.json')
 module.exports = {
   commerce,
   images: {
-    domains: ['cdn.schema.io'],
+    domains: ['cdn.schema.io', 'cdn.swell.store'],
   },
 }
