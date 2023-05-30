@@ -358,16 +358,12 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                     How long does it take for my package to arrive?
                   </h3>
                   <p className="mt-6 text-base leading-6 text-gray-600">
-                    For sterling silver items, your order will be delivered
+                    For all items, your order will be delivered
                     within 7 to 10 business days, including production and
                     delivery, after you place an order.
                   </p>{' '}
                   <br />
-                  <p className="text-base leading-6 text-gray-600">
-                    For sterling silver items, your order will be delivered
-                    within 7 to 10 business days, including production and
-                    delivery, after you place an order.
-                  </p>
+               
                 </div>
                 <hr className="border border-gray-100 w-full" />
                 <div className="flex justify-start items-start flex-col text-left w-full xl:w-8/12 ">
@@ -376,16 +372,13 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                   </h3>
                   <p className="mt-6 text-base leading-6 text-gray-600">
                     Remeber you can query the staus of your oders any time in My
-                    orders in the My aacount section.l if you are not resigered
-                    at Mango.com, you can access dierectly in the Orders
-                    section. In this cause, you will have enter your em-mail
+                    orders in the My account section. If you are not resigered
+                    at nb4shop.com, you can access dierectly in the Orders
+                    section. In this cause, you will have to enter phone your e-mail 
                     address and order number.
                   </p>{' '}
                   <br />
-                  <p className="text-base leading-6 text-gray-600">
-                    What is more, when your order leaves our wharehouses, we
-                    will send you an e-mail.
-                  </p>
+                 
                 </div>
                 <hr className="border border-gray-100 w-full" />
                 <div className="flex justify-start items-start flex-col text-left w-full xl:w-8/12">
