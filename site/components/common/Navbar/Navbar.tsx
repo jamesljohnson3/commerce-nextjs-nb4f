@@ -74,11 +74,11 @@ const navigation = {
             id: 'brands',
             name: 'New in',
             items: [
-              { name: 'Full Nelson', href: '#' },
-              { name: 'My Way', href: '#' },
-              { name: 'Re-Arranged', href: '#' },
-              { name: 'Counterfeit', href: '#' },
-              { name: 'Significant Other', href: '#' },
+              { name: 'Tops', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
+              { name: 'Dresses', href: 'https://nb4fshop.com/product/oversized-button-up-dress' },
+              { name: 'Pants', href: 'https://nb4fshop.com/product/corset-yoga-fabric-pants' },
+              { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
+            
             ],
           },
         ],
@@ -133,10 +133,10 @@ const navigation = {
             id: 'brands',
             name: 'New in',
             items: [
-              { name: 'Re-Arranged', href: '#' },
-              { name: 'Counterfeit', href: '#' },
-              { name: 'Full Nelson', href: '#' },
-              { name: 'My Way', href: '#' },
+              { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
+              { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
+              { name: 'Activewear', href: 'https://nb4fshop.com/product/cut-out-shoulder-track-set' },
+            
             ],
           },
         ],

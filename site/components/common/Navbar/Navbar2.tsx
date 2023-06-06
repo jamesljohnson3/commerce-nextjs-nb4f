@@ -18,137 +18,138 @@ import {
 } from '@heroicons/react/24/outline'
 
 const navigation = {
-  categories: [
-    {
-      id: 'women',
-      name: 'Womens',
-      featured: [
-        {
-          name: 'New Arrivals',
-          href: 'https://nb4fshop.com/search/womens',
-          imageSrc:
-            'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/Fleece_set_Grey_jertbs.webp',
-          imageAlt:
-            'New Arrivals',
-        },
-        {
-          name: 'Bodysuits',
-          href: 'https://nb4fshop.com/search/womens',
-          imageSrc:
-            'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/High_cut_bodysuit_vxclav.jpg',
-          imageAlt:
-            'Bodysuits',
-        },
-      ],
-      sections: [
-        {
-          id: 'clothing',
-          name: 'Shop by Category',
-          items: [
-            { name: 'Tops', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
-            { name: 'Dresses', href: 'https://nb4fshop.com/product/oversized-button-up-dress' },
-            { name: 'Pants', href: 'https://nb4fshop.com/product/corset-yoga-fabric-pants' },
-            { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
-            { name: 'Sweaters', href: 'https://nb4fshop.com/product/knit-sweater-leggings-set' },
-            { name: 'T-Shirts', href: 'https://nb4fshop.com/product/womens-v-neck-t-shirt-booty-shorts-set' },
-            { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
-            { name: 'Activewear', href: 'https://nb4fshop.com/product/cut-out-shoulder-track-set' },
-            { name: 'Browse All', href: 'https://nb4fshop.com/search/womens' },
-          ],
-        },
-        {
-          id: 'accessories',
-          name: 'New & Hot',
-          items: [
-            { name: 'Seamless Tops', href: 'https://nb4fshop.com/product/seamless-tank-top-leggings-set' },
-            { name: 'Print Leggings', href: 'https://nb4fshop.com/product/print-mesh-bodysuit-leggings' },
-            { name: 'Crop Tops', href: 'https://nb4fshop.com/product/rib-crop-top-mini-shorts-set' },
-            { name: 'Zip Up Tops', href: 'https://nb4fshop.com/product/letter-embossed-zip-up-top-shorts-set' },
-            { name: 'French Hoodies', href: 'https://nb4fshop.com/product/french-terry-hoodie-jacket-shorts-set' },
-            { name: 'Tropical Prints', href: 'https://nb4fshop.com/product/tropical-print-x-back-dress' },
-          ],
-        },
-        {
-          id: 'brands',
-          name: 'New in',
-          items: [
-            { name: 'Full Nelson', href: '#' },
-            { name: 'My Way', href: '#' },
-            { name: 'Re-Arranged', href: '#' },
-            { name: 'Counterfeit', href: '#' },
-            { name: 'Significant Other', href: '#' },
-          ],
-        },
-      ],
-    },
-    {
-      id: 'men',
-      name: 'Mens',
-      featured: [
-        {
-          name: 'New Arrivals',
-          href: 'https://nb4fshop.com/search/mens',
-          imageSrc:
-            'https://res.cloudinary.com/unlimitednow/image/upload/v1684964325/nb4f/products/Reflective_Royal_Blue_omumrq.jpg',
-          imageAlt:
-            'Drawstring top with elastic loop closure and textured interior padding.',
-        },
-        {
-          name: 'Sweatsuits',
-          href: 'https://nb4fshop.com/search/mens',
-          imageSrc:
-            'https://res.cloudinary.com/unlimitednow/image/upload/v1681747694/h7wmi8x8qqpkzpxmggba.jpg',
-          imageAlt:
-            'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
-        },
-      ],
-      sections: [
-        {
-          id: 'clothing',
-          name: 'Shop by Category',
-          items: [
-            { name: 'Tops', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
-            { name: 'Pants', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
-            { name: 'Sweaters', href: 'https://nb4fshop.com/product/tie-dye-hoody-set' },
-            { name: 'T-Shirts', href: 'https://nb4fshop.com/product/solid-hoodie-leggings-set' },
-            { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
-            { name: 'Activewear', href: 'https://nb4fshop.com/product/mens-fleece-jogger-set' },
-            { name: 'Browse All', href: 'https://nb4fshop.com/search/mens' },
-          ],
-        },
-        {
-          id: 'accessories',
-          name: 'For Her',
-          items: [
-            { name: 'Nylon Rib Seamless Set', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
-            { name: 'Two-Tone Pattern Top Shorts Set', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
-            { name: 'Tie Dye Hoody Set', href: 'https://nb4fshop.com/product/tie-dye-hoody-set' },
-            { name: 'Cut Out Detil Rhinestone Dress', href: 'https://nb4fshop.com/product/cut-out-detil-rhinestone-dress-1' },
-            { name: 'Side Pocket Tank Maxi Dress', href: 'https://nb4fshop.com/product/side-pocket-tank-maxi-dress' },
-          ],
-        },
-        {
-          id: 'brands',
-          name: 'New in',
-          items: [
-            { name: 'Re-Arranged', href: '#' },
-            { name: 'Counterfeit', href: '#' },
-            { name: 'Full Nelson', href: '#' },
-            { name: 'My Way', href: '#' },
-          ],
-        },
-      ],
-    },
-  ],
-  pages: [
-    { name: 'Big & Tall', href: 'https://nb4fshop.com/search/bt' },
-    { name: 'Dresses', href: 'https://nb4fshop.com/search/womens-dresses' },
-    { name: 'Rompers', href: 'https://nb4fshop.com/search/rompers' },
-    { name: 'Plus Size', href: 'https://nb4fshop.com/search/plus-size' },
-    { name: 'Jeans', href: 'https://nb4fshop.com/search/denim-jeans-set' },
-  ],
-}
-
+  const navigation = {
+    categories: [
+      {
+        id: 'women',
+        name: 'Womens',
+        featured: [
+          {
+            name: 'New Arrivals',
+            href: 'https://nb4fshop.com/search/womens',
+            imageSrc:
+              'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/Fleece_set_Grey_jertbs.webp',
+            imageAlt:
+              'New Arrivals',
+          },
+          {
+            name: 'Bodysuits',
+            href: 'https://nb4fshop.com/search/womens',
+            imageSrc:
+              'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/High_cut_bodysuit_vxclav.jpg',
+            imageAlt:
+              'Bodysuits',
+          },
+        ],
+        sections: [
+          {
+            id: 'clothing',
+            name: 'Shop by Category',
+            items: [
+              { name: 'Tops', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
+              { name: 'Dresses', href: 'https://nb4fshop.com/product/oversized-button-up-dress' },
+              { name: 'Pants', href: 'https://nb4fshop.com/product/corset-yoga-fabric-pants' },
+              { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
+              { name: 'Sweaters', href: 'https://nb4fshop.com/product/knit-sweater-leggings-set' },
+              { name: 'T-Shirts', href: 'https://nb4fshop.com/product/womens-v-neck-t-shirt-booty-shorts-set' },
+              { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
+              { name: 'Activewear', href: 'https://nb4fshop.com/product/cut-out-shoulder-track-set' },
+              { name: 'Browse All', href: 'https://nb4fshop.com/search/womens' },
+            ],
+          },
+          {
+            id: 'accessories',
+            name: 'New & Hot',
+            items: [
+              { name: 'Seamless Tops', href: 'https://nb4fshop.com/product/seamless-tank-top-leggings-set' },
+              { name: 'Print Leggings', href: 'https://nb4fshop.com/product/print-mesh-bodysuit-leggings' },
+              { name: 'Crop Tops', href: 'https://nb4fshop.com/product/rib-crop-top-mini-shorts-set' },
+              { name: 'Zip Up Tops', href: 'https://nb4fshop.com/product/letter-embossed-zip-up-top-shorts-set' },
+              { name: 'French Hoodies', href: 'https://nb4fshop.com/product/french-terry-hoodie-jacket-shorts-set' },
+              { name: 'Tropical Prints', href: 'https://nb4fshop.com/product/tropical-print-x-back-dress' },
+            ],
+          },
+          {
+            id: 'brands',
+            name: 'New in',
+            items: [
+              { name: 'Tops', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
+              { name: 'Dresses', href: 'https://nb4fshop.com/product/oversized-button-up-dress' },
+              { name: 'Pants', href: 'https://nb4fshop.com/product/corset-yoga-fabric-pants' },
+              { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
+            
+            ],
+          },
+        ],
+      },
+      {
+        id: 'men',
+        name: 'Mens',
+        featured: [
+          {
+            name: 'New Arrivals',
+            href: 'https://nb4fshop.com/search/mens',
+            imageSrc:
+              'https://res.cloudinary.com/unlimitednow/image/upload/v1684964325/nb4f/products/Reflective_Royal_Blue_omumrq.jpg',
+            imageAlt:
+              'Drawstring top with elastic loop closure and textured interior padding.',
+          },
+          {
+            name: 'Sweatsuits',
+            href: 'https://nb4fshop.com/search/mens',
+            imageSrc:
+              'https://res.cloudinary.com/unlimitednow/image/upload/v1681747694/h7wmi8x8qqpkzpxmggba.jpg',
+            imageAlt:
+              'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
+          },
+        ],
+        sections: [
+          {
+            id: 'clothing',
+            name: 'Shop by Category',
+            items: [
+              { name: 'Tops', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
+              { name: 'Pants', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
+              { name: 'Sweaters', href: 'https://nb4fshop.com/product/tie-dye-hoody-set' },
+              { name: 'T-Shirts', href: 'https://nb4fshop.com/product/solid-hoodie-leggings-set' },
+              { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
+              { name: 'Activewear', href: 'https://nb4fshop.com/product/mens-fleece-jogger-set' },
+              { name: 'Browse All', href: 'https://nb4fshop.com/search/mens' },
+            ],
+          },
+          {
+            id: 'accessories',
+            name: 'For Her',
+            items: [
+              { name: 'Nylon Rib Seamless Set', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
+              { name: 'Two-Tone Pattern Top Shorts Set', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
+              { name: 'Tie Dye Hoody Set', href: 'https://nb4fshop.com/product/tie-dye-hoody-set' },
+              { name: 'Cut Out Detil Rhinestone Dress', href: 'https://nb4fshop.com/product/cut-out-detil-rhinestone-dress-1' },
+              { name: 'Side Pocket Tank Maxi Dress', href: 'https://nb4fshop.com/product/side-pocket-tank-maxi-dress' },
+            ],
+          },
+          {
+            id: 'brands',
+            name: 'New in',
+            items: [
+              { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
+              { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
+              { name: 'Activewear', href: 'https://nb4fshop.com/product/cut-out-shoulder-track-set' },
+            
+            ],
+          },
+        ],
+      },
+    ],
+    pages: [
+      { name: 'Big & Tall', href: 'https://nb4fshop.com/search/bt' },
+      { name: 'Dresses', href: 'https://nb4fshop.com/search/womens-dresses' },
+      { name: 'Rompers', href: 'https://nb4fshop.com/search/rompers' },
+      { name: 'Plus Size', href: 'https://nb4fshop.com/search/plus-size' },
+      { name: 'Jeans', href: 'https://nb4fshop.com/search/denim-jeans-set' },
+    ],
+  }
+}  
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
 }
