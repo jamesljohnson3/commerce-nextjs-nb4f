@@ -67,18 +67,7 @@ const navigation = {
             { name: 'French Hoodies', href: 'https://nb4fshop.com/product/french-terry-hoodie-jacket-shorts-set' },
             { name: 'Tropical Prints', href: 'https://nb4fshop.com/product/tropical-print-x-back-dress' },
           ],
-        },
-        {
-          id: 'brands',
-          name: 'Brands',
-          items: [
-            { name: 'Full Nelson', href: '#' },
-            { name: 'My Way', href: '#' },
-            { name: 'Re-Arranged', href: '#' },
-            { name: 'Counterfeit', href: '#' },
-            { name: 'Significant Other', href: '#' },
-          ],
-        },
+        }
       ],
     },
     {
