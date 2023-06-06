@@ -147,8 +147,7 @@ import {
       { name: 'Plus Size', href: 'https://nb4fshop.com/search/plus-size' },
       { name: 'Jeans', href: 'https://nb4fshop.com/search/denim-jeans-set' },
     ],
-  }
-}  
+  } 
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
 }
