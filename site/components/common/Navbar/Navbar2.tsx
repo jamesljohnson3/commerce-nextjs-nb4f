@@ -43,7 +43,7 @@ const navigation = {
       sections: [
         {
           id: 'clothing',
-          name: 'Clothing',
+          name: 'Shop by Category',
           items: [
             { name: 'Tops', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
             { name: 'Dresses', href: 'https://nb4fshop.com/product/oversized-button-up-dress' },
@@ -67,7 +67,18 @@ const navigation = {
             { name: 'French Hoodies', href: 'https://nb4fshop.com/product/french-terry-hoodie-jacket-shorts-set' },
             { name: 'Tropical Prints', href: 'https://nb4fshop.com/product/tropical-print-x-back-dress' },
           ],
-        }
+        },
+        {
+          id: 'brands',
+          name: 'New in',
+          items: [
+            { name: 'Full Nelson', href: '#' },
+            { name: 'My Way', href: '#' },
+            { name: 'Re-Arranged', href: '#' },
+            { name: 'Counterfeit', href: '#' },
+            { name: 'Significant Other', href: '#' },
+          ],
+        },
       ],
     },
     {
@@ -94,7 +105,7 @@ const navigation = {
       sections: [
         {
           id: 'clothing',
-          name: 'Clothing',
+          name: 'Shop by Category',
           items: [
             { name: 'Tops', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
             { name: 'Pants', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
@@ -118,7 +129,7 @@ const navigation = {
         },
         {
           id: 'brands',
-          name: 'Brands',
+          name: 'New in',
           items: [
             { name: 'Re-Arranged', href: '#' },
             { name: 'Counterfeit', href: '#' },
