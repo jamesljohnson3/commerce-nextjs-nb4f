@@ -59,7 +59,7 @@ import {
           },
           {
             id: 'accessories',
-            name: 'New & Hot',
+            name: 'Trending',
             items: [
               { name: 'Seamless Tops', href: 'https://nb4fshop.com/product/seamless-tank-top-leggings-set' },
               { name: 'Print Leggings', href: 'https://nb4fshop.com/product/print-mesh-bodysuit-leggings' },
