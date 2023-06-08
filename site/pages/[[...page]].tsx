@@ -66,7 +66,7 @@ export default function Page({
         <Background />
         <BuilderComponent model="page" content={page} />{' '}
       </div>
-      <div className="hidden">
+      <div >
         <Footer />
       </div>
     </>
