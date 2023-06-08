@@ -118,7 +118,7 @@ import {
           },
           {
             id: 'accessories',
-            name: 'For Her',
+            name: 'Gifts For Her',
             items: [
               { name: 'Nylon Rib Seamless Set', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
               { name: 'Two-Tone Pattern Top Shorts Set', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
