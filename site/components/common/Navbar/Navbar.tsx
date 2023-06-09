@@ -26,7 +26,7 @@ import {
         featured: [
           {
             name: 'New Arrivals',
-            href: 'https://nb4fshop.com/search/womens',
+            href: 'https://nb4fshop.com/product/ladys-fleece-set',
             imageSrc:
               'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/Fleece_set_Grey_jertbs.webp',
             imageAlt:
