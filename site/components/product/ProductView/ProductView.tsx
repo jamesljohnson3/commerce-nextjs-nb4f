@@ -359,8 +359,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                   </h3>
                   <p className="mt-6 text-base leading-6 text-gray-600">
                     For all items, your order will be delivered
-                    within 7 to 10 business days, including production and
-                    delivery, after you place an order.
+                    within 7 to 10 business days, after you place an order.
                   </p>{' '}
                   <br />
                
@@ -371,11 +370,9 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                     Where is my order?
                   </h3>
                   <p className="mt-6 text-base leading-6 text-gray-600">
-                    Remeber you can query the staus of your oders any time in My
-                    orders in the My account section. If you are not resigered
-                    at nb4shop.com, you can access dierectly in the Orders
-                    section. In this cause, you will have to enter phone your e-mail 
-                    address and order number.
+                  You can track the status of your orders at any time in the "My Orders" section of your account on nb4shop.com. If you haven't registered on the website, you can still access the "Orders" section by entering your phone number, email address, and order number.
+
+
                   </p>{' '}
                   <br />
                  
@@ -386,8 +383,8 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                     Can I cancel or change my Order?
                   </h3>
                   <p className="mt-6 text-base leading-6 text-gray-600">
-                    Yes, you can change or cancel your order just reach out us.
-                  </p>
+                  Yes, you can change or cancel your order. Please reach out to us with your request, and we will assist you accordingly.
+</p>
                 </div>
                 <hr className="border border-gray-100 w-full" />
               </div>
