@@ -76,7 +76,7 @@ const SEO: FC<Props> = ({
    */
   return (
     <Head>
-      <title key="title">NB4F Shop</title>
+      <title key="title">NB4F Distr</title>
       <meta
         key="description"
         name="description"
