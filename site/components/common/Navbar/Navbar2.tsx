@@ -133,7 +133,6 @@ import {
             items: [
               { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
               { name: 'Jackets', href: 'https://nb4fshop.com/search/mens' },
-              { name: 'Activewear', href: 'https://nb4fshop.com/product/cut-out-shoulder-track-set' },
             
             ],
           },
