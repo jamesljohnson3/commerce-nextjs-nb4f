@@ -95,7 +95,7 @@ import {
           },
           {
             name: 'Sweatsuits',
-            href: 'https://nb4fshop.com/search/mens',
+            href: 'https://nb4fshop.com/search/sweatsuit',
             imageSrc:
               'https://res.cloudinary.com/unlimitednow/image/upload/v1681747694/h7wmi8x8qqpkzpxmggba.jpg',
             imageAlt:
