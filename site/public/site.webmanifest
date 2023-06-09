@@ -1,7 +1,7 @@
 {
-  "name": "Next.js Commerce",
-  "short_name": "Next.js Commerce",
-  "description": "Next.js Commerce -> https://www.nextjs.org/commerce",
+  "name": "NB4F Distr",
+  "short_name": "@NB4FDistr",
+  "description": "Explore. Buy. Save",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#fff",
