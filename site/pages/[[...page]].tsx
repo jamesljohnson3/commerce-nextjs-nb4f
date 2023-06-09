@@ -66,9 +66,7 @@ export default function Page({
         <Background />
         <BuilderComponent model="page" content={page} />{' '}
       </div>
-      <div >
-        <Footer />
-      </div>
+     
     </>
   )
 }
