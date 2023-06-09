@@ -33,12 +33,12 @@ import {
               'New Arrivals',
           },
           {
-            name: 'Bodysuits',
-            href: 'https://nb4fshop.com/search/womens',
+            name: 'Jumpsuit',
+            href: 'https://nb4fshop.com/search/jumpsuit',
             imageSrc:
               'https://res.cloudinary.com/unlimitednow/image/upload/v1684964327/nb4f/products/High_cut_bodysuit_vxclav.jpg',
             imageAlt:
-              'Bodysuits',
+              'Jumpsuit',
           },
         ],
         sections: [
