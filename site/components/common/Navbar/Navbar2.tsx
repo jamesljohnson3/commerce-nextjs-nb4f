@@ -52,7 +52,6 @@ import {
               { name: 'Sweaters', href: 'https://nb4fshop.com/product/knit-sweater-leggings-set' },
               { name: 'T-Shirts', href: 'https://nb4fshop.com/product/womens-v-neck-t-shirt-booty-shorts-set' },
               { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
-              { name: 'Activewear', href: 'https://nb4fshop.com/product/cut-out-shoulder-track-set' },
               { name: 'Browse All', href: 'https://nb4fshop.com/search/womens' },
             ],
           },
@@ -109,10 +108,8 @@ import {
             items: [
               { name: 'Tops', href: 'https://nb4fshop.com/product/nylon-rib-seamless-set' },
               { name: 'Pants', href: 'https://nb4fshop.com/product/two-tone-pattern-top-shorts-set' },
-              { name: 'Sweaters', href: 'https://nb4fshop.com/product/tie-dye-hoody-set' },
               { name: 'T-Shirts', href: 'https://nb4fshop.com/product/solid-hoodie-leggings-set' },
               { name: 'Jackets', href: 'https://nb4fshop.com/product/seamless-jacket-set' },
-              { name: 'Activewear', href: 'https://nb4fshop.com/product/mens-fleece-jogger-set' },
               { name: 'Browse All', href: 'https://nb4fshop.com/search/mens' },
             ],
           },
@@ -131,8 +128,7 @@ import {
             id: 'brands',
             name: 'New in',
             items: [
-              { name: 'Denim', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
-              { name: 'Jackets', href: 'https://nb4fshop.com/search/mens' },
+              { name: 'Fathers Day', href: 'https://nb4fshop.com/product/acid-wash-slim-fit-jean-set' },
             
             ],
           },
@@ -140,6 +136,9 @@ import {
       },
     ],
     pages: [
+
+      
+      { name: 'All Products', href: 'https://nb4fshop.com/search/' },
       { name: 'Big & Tall', href: 'https://nb4fshop.com/search/bt' },
       { name: 'Dresses', href: 'https://nb4fshop.com/search/womens-dresses' },
       { name: 'Rompers', href: 'https://nb4fshop.com/search/rompers' },
