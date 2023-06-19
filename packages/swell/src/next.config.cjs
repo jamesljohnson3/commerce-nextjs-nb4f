@@ -1,8 +1,10 @@
-const commerce = require('./commerce.config.json')
+const commerce = require('./commerce.config.json');
 
 module.exports = {
   commerce,
   images: {
     domains: ['cdn.schema.io', 'cdn.swell.store'],
   },
-}
+  // Disable prerendering
+  prerender: false,
+};
