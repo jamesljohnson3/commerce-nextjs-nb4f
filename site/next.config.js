@@ -40,9 +40,6 @@ module.exports = withCommerceConfig({
   experimental: {
     esmExternals: 'loose',
   },
-
-  // Disable prerendering
-  prerender: false,
 })
 
 // Don't delete this console log, useful to see the commerce config in Vercel deployments
