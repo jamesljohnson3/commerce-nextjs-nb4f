@@ -4,10 +4,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+          <Head><script async src="https://cdn.splitbee.io/sb.js"></script>
+</Head>
         <body className="loading">
           <Main />
           <NextScript />
+          
         </body>
       </Html>
     )
